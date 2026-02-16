@@ -1,0 +1,58 @@
+User-agent: *
+# --- Dossiers techniques (à ne pas indexer) ---
+Disallow: /page/
+Disallow: /components/
+Disallow: /config.php
+
+# --- Pages à exclure (FR) ---
+Disallow: /fr/404/
+Disallow: /fr/plan-du-site
+Disallow: /fr/plan-du-site/
+Disallow: /fr/nos-realisations
+Disallow: /fr/nos-realisations/
+Disallow: /fr/nos-articles
+Disallow: /fr/nos-articles/
+Disallow: /fr/mentions-legales
+Disallow: /fr/mentions-legales/
+Disallow: /fr/hangar-gonflable
+Disallow: /fr/hangar-gonflable/
+Disallow: /fr/expertises
+Disallow: /fr/expertises/
+Disallow: /fr/cas-clients-ingenierie
+Disallow: /fr/cas-clients-ingenierie/
+Disallow: /fr/cas-clients-hangar
+Disallow: /fr/cas-clients-hangar/
+Disallow: /fr/cas-clients-cible-leurres
+Disallow: /fr/cas-clients-cible-leurres/
+Disallow: /fr/cas-clients-acoustique
+Disallow: /fr/cas-clients-acoustique/
+Disallow: /fr/acoustique
+Disallow: /fr/acoustique/
+
+# --- Pages à exclure (EN) ---
+Disallow: /en/404/
+Disallow: /en/plan-du-site
+Disallow: /en/plan-du-site/
+Disallow: /en/nos-realisations
+Disallow: /en/nos-realisations/
+Disallow: /en/nos-articles
+Disallow: /en/nos-articles/
+Disallow: /en/mentions-legales
+Disallow: /en/mentions-legales/
+Disallow: /en/hangar-gonflable
+Disallow: /en/hangar-gonflable/
+Disallow: /en/expertises
+Disallow: /en/expertises/
+Disallow: /en/cas-clients-ingenierie
+Disallow: /en/cas-clients-ingenierie/
+Disallow: /en/cas-clients-hangar
+Disallow: /en/cas-clients-hangar/
+Disallow: /en/cas-clients-cible-leurres
+Disallow: /en/cas-clients-cible-leurres/
+Disallow: /en/cas-clients-acoustique
+Disallow: /en/cas-clients-acoustique/
+Disallow: /en/acoustique
+Disallow: /en/acoustique/
+
+# IMPORTANT : ne bloque pas /uploads/ (images) pour que Google Images les prenne.
+Sitemap: https://inflasys.com/sitemap.xml
