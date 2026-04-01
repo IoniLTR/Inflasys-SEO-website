@@ -1,107 +1,105 @@
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inflasys sous cat</title>
-    <meta name="description" content="">
+    <title>Inflatable Storage Hangars | Inflasys</title>
+    <meta name="description" content="Design and manufacture of custom inflatable hangars: ventilated with permanent blowers or airtight. Quick-to-deploy solutions for storage, industry, and logistics.">
 </head>
 
 <body>
     <?php require_once '../../../components/header.php'; ?>
 
-<!-- ----------------- PARTIE 1 ----------------- -->
-   <?php
-   $hero_title     = "Conception de Logo : Clé de l'Identité de Marque";
-   $hero_text      = "Plus qu’une image, <strong>un logo est la représentation visuelle de votre marque</strong> qui <strong>communique instantanément vos valeurs et votre identité</strong> au public.";
+<?php
+   $hero_title     = "Inflatable Storage Hangars";
+   $hero_text      = "Inflasys designs and manufactures <strong>custom inflatable hangars</strong> for industrial, logistical, and operational uses. Our solutions are available in <strong>ventilated (permanent blower)</strong> or <strong>airtight (sealed inflation)</strong> versions, depending on your operational constraints.";
    
-   $hero_btn_label = 'Nous contacter';
-   $hero_btn_link  = 'contact';
-   $hero_img_src   = 'uploads/default.webp';
-   $hero_img_alt   = 'Contrôleur Airtechnic en action';
+   $hero_btn_label = "Contact us";
+   $hero_btn_link  = "contact/";
+   $hero_img_src   = "uploads/hangar-gonflable/hangar_gonflable.webp";
+   $hero_img_alt   = "Inflasys inflatable storage hangar";
 
    require_once $base_path . 'components/categories/sous-categories/part-1.php';
    ?>
-<!-- ----------------- PARTIE 2 ----------------- -->
 <?php
    // TITRE DE LA SECTION
-   $concevoir_product_title = "Qu'est-ce que la conception de logo ?";
+   $concevoir_product_title = "Why choose an inflatable hangar?";
    
    // PARAGRAPHE D'INTRO
-   $concevoir_product_title_paragraphe = "La conception de logo est le <strong>processus de création d'un symbole graphique qui représente une entreprise ou une marque</strong>. Il sert de <strong>signature visuelle</strong>, encapsulant l'essence de l'entreprise à travers des éléments tels que les <strong>formes</strong>, les <strong>couleurs</strong>, les <strong>typographies</strong> et les <strong>images</strong>.";
-   // IMAGE D'ILLUSTRATION (ex: ingénieur sur logiciel CAD ou atelier)
-   $concevoir_product_img_src = "uploads/default.webp";
-   $concevoir_product_img_alt = "Modélisation 3D d'une structure industrielle";
+   $concevoir_product_title_paragraphe = "Inflatable hangars allow for the <strong>quick creation of protected volumes</strong> without heavy infrastructure. They offer a flexible solution for storage, equipment protection, or setting up temporary spaces.";
+   
+   // IMAGE D'ILLUSTRATION
+   $concevoir_product_img_src = "uploads/hangar-gonflable/hangar_gonflable_2.webp";
+   $concevoir_product_img_alt = "Inflatable hangar deployment";
 
    // ÉTAPES (accordéon) - Contenu TECHNIQUE
    $concevoir_product_steps = [
        [
-           "title"      => "Identité de Marque Forte",
+           "title"      => "Flexible Solution",
            "paragraphs" => [
-               "Un logo efficace contribue à construire une <strong>identité de marque forte</strong>, permettant à votre entreprise d'être <strong>reconnue</strong> et <strong>distinguée </strong>par les consommateurs."
+               "They offer a flexible solution for <strong>storage</strong>, <strong>equipment protection</strong>, or setting up temporary spaces in various environments."
            ]
        ],
         [
-           "title"      => "Communication Instantanée",
+           "title"      => "Precise Adaptation",
            "paragraphs" => [
-               "<strong>Le logo transmet rapidement des informations clés sur votre entreprise</strong>, telles que le secteur d'activité, les valeurs et la personnalité de la marque."
+               "Their design allows for <strong>precise adaptation to terrain constraints</strong> (wind, access, dimensions, operations)."
            ]
        ],
        [
-           "title"      => "Professionnalisme et Crédibilité",
+           "title"      => "Effective Alternative",
            "paragraphs" => [
-               "Un logo professionnel renforce la <strong>crédibilité</strong> de votre entreprise, <strong>inspirant confiance et fiabilité auprès des clients potentiels.</strong>"
+               "They are an <strong>effective alternative to rigid structures</strong> in many contexts, offering the same level of protection."
            ]
        ],
        [
-           "title"      => "Avantage Concurrentiel",
+           "title"      => "Quick Creation",
            "paragraphs" => [
-               "Dans un marché saturé, <strong>un logo unique et mémorable procure un</strong> <strong>avantage concurrentiel</strong>, aidant à attirer et retenir l'attention des clients."
+               "Inflatable hangars allow for the <strong>quick creation of protected volumes</strong> without the need for heavy and permanent infrastructure."
            ]
        ],
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-2.php';
    ?>
-<!-- ----------------- PARTIE 3 ----------------- -->
 <?php
    // TITRE + TEXTES INTRO
-   $part2_title = "Étapes essentielles pour concevoir un logo";
+   $part2_title = "Two technologies adapted to your constraints";
    
    // ICI : Vous pouvez utiliser <strong>, <b>, <br> dans l'intro
    $part2_texts = [
-       "Concevoir un logo impactant demande de suivre certaines étapes clés pour garantir qu’il soit à la fois unique et mémorable. De l’analyse de la marque et du public cible au choix des formes, couleurs et typographies, chaque décision influence la perception de l’identité visuelle. Un bon logo doit pouvoir résumer l’essence de l’entreprise en un coup d’œil.",
+       "<strong>Each inflatable hangar project requires a custom approach.</strong>",
+       "We offer two main architectures: ventilated hangars with permanent blowers, or airtight structures with closed overpressure.<br><br>The choice depends on your constraints: duration of use, autonomy, environment, safety, and maintenance."
    ];
 
    // BLOCS (image + titre + texte)
    // ICI : Vous pouvez utiliser <strong>, <b>, <br> dans le texte des blocs
    $part2_blocks = [
        [
-           "img" => "uploads/default.webp",
-           "title" => "Recherche et Analyse",
-           "text"  => "<strong>Comprendre l'identité de la marque</strong>, son <strong>public cible</strong> et les <strong>tendances du marché</strong> est crucial pour orienter le processus de conception."
+           "img" => "uploads/hangar-gonflable/hangar_gonflable_2.webp",
+           "title" => "Ventilated hangars",
+           "text"  => "<strong>Permanent blower</strong> ensuring the stability of the structure. A robust solution adapted to intensive use."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Brainstorming et Esquisses",
-           "text"  => "Générer des <strong>idées créatives</strong> et <strong>réaliser des esquisses préliminaires pour explorer différents concepts</strong> et directions visuelles."
+           "img" => "uploads/hangar-gonflable/hangar_gonflable_3.webp",
+           "title" => "Airtight hangars",
+           "text"  => "<strong>Closed-circuit inflated</strong> structure, limiting energy dependence and simplifying operations."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Sélection des Éléments Visuels",
-           "text"  => "Choisir les <strong>couleurs</strong>, les <strong>polices</strong> et les <strong>symboles </strong>qui reflètent le mieux la personnalité et les valeurs de la marque."
+           "img" => "uploads/hangar-gonflable/hangar_gonflable_4.webp",
+           "title" => "Custom design",
+           "text"  => "Dimensions, access, openings, terrain constraints: each hangar is <strong>adapted to your needs</strong>."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Réalisation des Concepts",
-           "text"  => "<strong>Créer des versions numériques des concepts les plus prometteurs</strong> pour une évaluation plus approfondie."
+           "img" => "uploads/hangar-gonflable/hangar_gonflable_5.webp",
+           "title" => "Quick deployment",
+           "text"  => "Quick and dismantlable installation, suitable for <strong>temporary or evolving environments</strong>."
        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-3.php';
    ?>
-<!-- ----------------- PARTIE 4 ----------------- -->
-   <?php
-$cat_logos_title = "Ils nous ont fait confiance";
+<?php /*
+$cat_logos_title = "Application areas";
 $cat_logos_list  = [
     "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg",
     "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg",
@@ -110,59 +108,51 @@ $cat_logos_list  = [
 ];
 
    require_once $base_path . 'components/categories/sous-categories/part-4.php';
-   ?>
-<!-- ----------------- PARTIE 5 ----------------- -->
+   */ ?>
 <?php
    // TITRE DE LA SECTION
-   $concevoir_product_2_title = "Erreurs à éviter en conception de logo";
+   $concevoir_product_2_title = "Our approach: study, design, manufacturing";
    
    // TEXTE DE GAUCHE (Remplace l'image)
-   $concevoir_product_2_left_text = "En concevant un logo, éviter des erreurs comme un design trop complexe, des couleurs mal choisies ou une typographie peu lisible est crucial. <strong>Un bon logo doit rester simple, adapté aux différents supports</strong> et représenter fidèlement la marque.";
+   $concevoir_product_2_left_text = "Each hangar is designed to meet real-world usage. Our hangars can integrate specific openings, vehicle access, or adapted ventilation systems. <strong>They are designed to be robust, easy to operate, and compatible</strong> with industrial or logistical constraints.";
 
    // BOUTON CONTACT
-   $concevoir_product_2_btn_label = "Nous contacter";
-   $concevoir_product_2_btn_link  = "contact";
+   $concevoir_product_2_btn_label = "Contact us";
+   $concevoir_product_2_btn_link  = "contact/";
 
    // ÉTAPES (accordéon)
    $concevoir_product_2_steps = [
        [
-           "title"      => "Complexité Excessive",
+           "title"      => "1. Scoping the needs",
            "paragraphs" => [
-               "Un logo trop complexe peut être difficile à reconnaître et à mémoriser<strong>. La simplicité est clé pour une identification rapide.</strong>"
+               "<strong>Analysis of constraints:</strong> dimensions, environment, usage, duration. Choice between ventilated or airtight structure."
            ]
        ],
        [
-           "title"      => "Imitation de la Concurrence",
+           "title"      => "2. Design",
            "paragraphs" => [
-               "Copier des éléments de logos existants peut <strong>nuire à votre originalité, et donc à la reconnaissance de votre marque, et risque de mener à des problèmes juridiques.</strong>"
+               "Sizing, architecture, access, anchors, and materials. <strong>Validation of technical choices.</strong>"
            ]
        ],
        [
-           "title"      => "Ignorer l'Évolutivité",
+           "title"      => "3. Manufacturing & implementation",
            "paragraphs" => [
-               "Ne pas considérer comment le logo s'affiche à différentes tailles peut <strong>affecter sa lisibilité et son impact visuel.</strong>"
+               "Custom manufacturing and deployment preparation. <strong>Quick installation and commissioning.</strong>"
              ]
        ],
         [
-           "title"      => "Mauvais Choix de Couleurs",
+           "title"      => "4. Flexibility & scalability",
            "paragraphs" => [
-               "Utiliser des couleurs inappropriées peut <strong>envoyer le mauvais message et ne pas</strong> <strong>résonner avec le public cible</strong>."
+               "Inflatable hangars can be moved, modified, or resized according to the evolution of your needs. <strong>They provide great operational flexibility.</strong>"
             ]
-        ],
-        [
-           "title"      => "Négliger le Feedback",
-           "paragraphs" => [
-               "Éviter de solliciter des avis peut conduire à des erreurs non détectées. <strong>Le feedback est essentiel pour un design réussi.</strong>"
-          ]
-        ],
+        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-5.php';
    ?>
-<!-- ----------------- PARTIE 6 ----------------- -->
-<?php
+<?php /*
    // TITRE
-   $part8_title = "Quelques unes de nos réalisations";
+   $part8_title = "Some of our projects";
 
    // IMAGE PATTERN
    $part8_pattern = "uploads/Picto/pattern-1.webp"; 
@@ -172,7 +162,7 @@ $cat_logos_list  = [
    if (!function_exists('getRealisationDataForSubCat')) {
        function getRealisationDataForSubCat($filePath) {
            $content = file_get_contents($filePath);
-           $data = ['title' => 'Projet', 'img_path' => 'uploads/default.webp'];
+           $data = ['title' => 'Project', 'img_path' => 'uploads/default.webp'];
            if (preg_match('/\$titre_projet\s*=\s*["\'](.*?)["\'];/s', $content, $matches)) $data['title'] = $matches[1];
            if (preg_match('/\$image_mockup\s*=\s*\$base_url\s*\.\s*["\'](.*?)["\'];/s', $content, $matches)) $data['img_path'] = $matches[1];
            elseif (preg_match('/\$image_mockup\s*=\s*["\'](.*?)["\'];/s', $content, $matches)) $data['img_path'] = $matches[1];
@@ -207,56 +197,54 @@ $cat_logos_list  = [
    }
 
    // BOUTON TOUT VOIR
-   $part8_all_link  = "nos-realisations";
-   $part8_all_label = "Tout voir";
+   $part8_all_link  = "nos-realisations/";
+   $part8_all_label = "See all";
 
   require_once $base_path . 'components/categories/sous-categories/part-6.php';
-?>
-<!-- ----------------- PARTIE 7 ----------------- -->
+*/ ?>
 <?php
    // TITRE DE LA SECTION
-   $accompagner_solution_title = "Faites-vous accompagner dans la conception de votre logo pour des résultats optimaux";
+   $accompagner_solution_title = "Why choose Inflasys?";
    
-   $accompagner_solution_title_paragraphe = "Travailler avec des professionnels du design offre plusieurs <strong>avantages</strong> majeurs :";
+   $accompagner_solution_title_paragraphe = "We combine <strong>inflatable expertise, engineering, and a field approach</strong> to offer reliable and tailored solutions:";
    
    // BOUTON CTA
-   $accompagner_solution_btn_label = "Nous contacter";
-   $accompagner_solution_btn_link  = "contact";
+   $accompagner_solution_btn_label = "Contact us";
+   $accompagner_solution_btn_link  = "contact/";
 
    // ÉTAPES
    $accompagner_solution_steps = [
        [
-           "title"      => "Expertise Créative",
+           "title"      => "Custom design",
            "paragraphs" => [
-               "Des designers expérimentés apportent une <strong>vision artistique et des compétences techniques pour créer un logo unique</strong>."
+               "We adapt the dimensions, access points, and compartments to your <strong>specific operational constraints</strong>."
            ]
        ],
        [
-           "title"      => "Compréhension Stratégique",
+           "title"      => "Two technologies: ventilated or airtight",
            "paragraphs" => [
-               "Ils alignent le design sur vos <strong>objectifs commerciaux</strong> et votre <strong>stratégie de marque.</strong>"
+               "Choice between ventilated structures for intensive use or <strong>airtight structures for maximum autonomy</strong>."
            ]
        ],
        [
-           "title"      => "Processus Collaboratif",
+           "title"      => "Quick deployment",
            "paragraphs" => [
-               "Un accompagnement personnalisé favorise une <strong>communication ouverte, assurant que le résultat final répond à vos attentes.</strong>"
+               "Quick and dismantlable installation, suitable for <strong>temporary or evolving environments</strong>."
              ]
        ],
         [
-           "title"      => "Support Continu",
+           "title"      => "Adapted to industrial constraints",
            "paragraphs" => [
-               "Les professionnels offrent souvent un <strong>suivi pour adapter le logo aux besoins futurs ou aux évolutions du marché.</strong>"
+               "Our structures are robust, easy to operate, and compatible with <strong>demanding industrial or logistical contexts</strong>."
           ]
        ],
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-7.php';
 ?>
-<!-- ----------------- PARTIE 8 ----------------- -->
- <?php
+<?php /*
    // TITRE DU BLOC
-   $part10_title = "Ils ont aimé travailler avec nous";
+   $part10_title = "Client feedback";
 
    // PATTERN (image décorative)
    $part10_pattern = "uploads/Picto/pattern-1.webp"; 
@@ -264,46 +252,45 @@ $cat_logos_list  = [
    // AVIS
    $avis = [
        [
-           "name" => "Jean-Marc P.",
-           "role" => "Directeur Technique - Grand Port Maritime",
-           "text" => "L'automatisation de la pression nous a permis de sécuriser le stockage vrac face aux vents marins violents. Installation exemplaire.",
+           "name" => "Industry",
+           "role" => "Storage",
+           "text" => "A quick-to-implement solution perfectly suited to our needs.",
+           "logo" => "uploads/Logo/clients/Chanel-logo.png"
+       ],
+       [
+           "name" => "Logistics",
+           "role" => "Operations",
+           "text" => "Very flexible and simple to use in the field.",
+           "logo" => "uploads/Logo/clients/Chanel-logo.png"
+       ],
+       [
+           "name" => "Col. Mustard",
+           "role" => "Army",
+           "text" => "Hyper-realistic tactical decoys. Met expectations.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ],
        [
-           "name" => "Sylvie D.",
-           "role" => "Resp. Maintenance - Site Seveso",
-           "text" => "La redondance des systèmes Airtechnic répond parfaitement à nos exigences de sécurité pour le confinement de zone.",
+           "name" => "Sophie Martin",
+           "role" => "Renault",
+           "text" => "Maintenance facilitated by quick tents. Great.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ],
        [
-           "name" => "Marc L.",
-           "role" => "Architecte Structure",
-           "text" => "Une collaboration fluide avec le bureau d'études pour intégrer les contraintes esthétiques et techniques.",
-           "logo" => "uploads/Logo/clients/Chanel-logo.webp"
-       ],
-       [
-           "name" => "Thomas W.",
-           "role" => "Chef de projet événementiel",
-           "text" => "Rapidité de déploiement impressionnante et fiabilité totale du système de pilotage durant tout l'événement.",
-           "logo" => "uploads/Logo/clients/Chanel-logo.webp"
-       ],
-       [
-           "name" => "Cabinet Ingénierie X",
-           "role" => "Partenaire BTP",
-           "text" => "Nous prescrivons systématiquement leurs solutions pour les ouvrages temporaires de grande portée.",
+           "name" => "Luc Besson",
+           "role" => "EuropaCorp",
+           "text" => "Custom inflatable structures for our sets. Perfect.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-8.php';
-?>
-<!-- ----------------- PARTIE 9 ----------------- -->
+*/ ?>
 <?php
 // Variables par défaut
-$part11_subtitle = $part11_subtitle ?? "Contactez nos équipes";
-$part11_title    = $part11_title ?? "Discutons de vos besoins";
+$part11_subtitle = "Contact us";
+$part11_title    = "Let's discuss your inflatable hangar project";
 
-$part11_text     = $part11_text ?? "Vous cherchez une <strong>agence web</strong> de confiance pour votre projet&nbsp;?<strong> Contactez-nous</strong> et découvrez comment nous pouvons vous aider.";
+$part11_text     = "Do you need a <strong>ventilated or airtight inflatable hangar</strong>? <strong>Contact us</strong> to define a solution adapted to your usage.";
 
    require_once $base_path . 'components/categories/sous-categories/part-9.php';
    ?>

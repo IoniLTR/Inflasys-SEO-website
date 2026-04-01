@@ -1,107 +1,103 @@
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inflasys sous cat</title>
-    <meta name="description" content="">
+    <title>Inflatable Rescue Hangar & Advanced Medical Post (AMP) | Inflasys</title>
+    <meta name="description" content="Inflatable rescue hangars and Advanced Medical Posts (AMP): rapid deployment, inflatable medical structures, field hospitals, and custom emergency solutions.">
 </head>
 
 <body>
     <?php require_once '../../../components/header.php'; ?>
 
-<!-- ----------------- PARTIE 1 ----------------- -->
-   <?php
-   $hero_title     = "Conception de Logo : Clé de l'Identité de Marque";
-   $hero_text      = "Plus qu’une image, <strong>un logo est la représentation visuelle de votre marque</strong> qui <strong>communique instantanément vos valeurs et votre identité</strong> au public.";
+<?php
+   $hero_title     = "Inflatable Rescue Hangars & Advanced Medical Posts (AMP)";
+   $hero_text      = "Inflasys designs and manufactures <strong>inflatable rescue structures</strong> and <strong>Advanced Medical Posts (AMP)</strong> for emergency, crisis, or intervention situations. Our solutions allow for the <strong>rapid deployment</strong> of medical, logistical, or triage spaces in civil, industrial, or institutional environments.";
    
-   $hero_btn_label = 'Nous contacter';
-   $hero_btn_link  = 'contact';
-   $hero_img_src   = 'uploads/default.webp';
-   $hero_img_alt   = 'Contrôleur Airtechnic en action';
+   $hero_btn_label = "Contact us";
+   $hero_btn_link  = "contact/";
+   $hero_img_src   = "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours.webp";
+   $hero_img_alt   = "Inflasys inflatable advanced medical post";
 
    require_once $base_path . 'components/categories/sous-categories/part-1.php';
    ?>
-<!-- ----------------- PARTIE 2 ----------------- -->
 <?php
-   // TITRE DE LA SECTION
-   $concevoir_product_title = "Qu'est-ce que la conception de logo ?";
+   // SECTION TITLE
+   $concevoir_product_title = "Why use an AMP or inflatable hangar?";
    
-   // PARAGRAPHE D'INTRO
-   $concevoir_product_title_paragraphe = "La conception de logo est le <strong>processus de création d'un symbole graphique qui représente une entreprise ou une marque</strong>. Il sert de <strong>signature visuelle</strong>, encapsulant l'essence de l'entreprise à travers des éléments tels que les <strong>formes</strong>, les <strong>couleurs</strong>, les <strong>typographies</strong> et les <strong>images</strong>.";
-   // IMAGE D'ILLUSTRATION (ex: ingénieur sur logiciel CAD ou atelier)
-   $concevoir_product_img_src = "uploads/default.webp";
-   $concevoir_product_img_alt = "Modélisation 3D d'une structure industrielle";
+   // INTRO PARAGRAPH
+   $concevoir_product_title_paragraphe = "Inflatable rescue structures allow for the <strong>immediate creation of medical infrastructure</strong> in disaster zones. They offer a flexible solution to respond to emergency situations: natural disasters, industrial accidents, or large-scale events.";
+   
+   // ILLUSTRATION IMAGE 
+   $concevoir_product_img_src = "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours_2.webp";
+   $concevoir_product_img_alt = "Field hospital deployment";
 
-   // ÉTAPES (accordéon) - Contenu TECHNIQUE
+   // STEPS (accordion) - TECHNICAL Content
    $concevoir_product_steps = [
        [
-           "title"      => "Identité de Marque Forte",
+           "title"      => "Immediate Response",
            "paragraphs" => [
-               "Un logo efficace contribue à construire une <strong>identité de marque forte</strong>, permettant à votre entreprise d'être <strong>reconnue</strong> et <strong>distinguée </strong>par les consommateurs."
+               "Their lightness and <strong>speed of implementation</strong> make them a key tool for rescue teams, allowing them to be immediately operational."
            ]
        ],
         [
-           "title"      => "Communication Instantanée",
+           "title"      => "Capacity Increase",
            "paragraphs" => [
-               "<strong>Le logo transmet rapidement des informations clés sur votre entreprise</strong>, telles que le secteur d'activité, les valeurs et la personnalité de la marque."
+               "They allow for the <strong>rapid increase of care capacities</strong> in the field without requiring heavy infrastructure."
            ]
        ],
        [
-           "title"      => "Professionnalisme et Crédibilité",
+           "title"      => "Flow Management",
            "paragraphs" => [
-               "Un logo professionnel renforce la <strong>crédibilité</strong> de votre entreprise, <strong>inspirant confiance et fiabilité auprès des clients potentiels.</strong>"
+               "Our inflatable hangars allow for a <strong>clear organization of medical zones</strong> and smooth management of patient flows."
            ]
        ],
        [
-           "title"      => "Avantage Concurrentiel",
+           "title"      => "Operational Flexibility",
            "paragraphs" => [
-               "Dans un marché saturé, <strong>un logo unique et mémorable procure un</strong> <strong>avantage concurrentiel</strong>, aidant à attirer et retenir l'attention des clients."
+               "An <strong>adaptable solution for all scenarios</strong>. Modules can be combined to create larger structures according to the needs of the intervention."
            ]
        ],
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-2.php';
    ?>
-<!-- ----------------- PARTIE 3 ----------------- -->
 <?php
-   // TITRE + TEXTES INTRO
-   $part2_title = "Étapes essentielles pour concevoir un logo";
+   // TITLE + INTRO TEXTS
+   $part2_title = "Emergency inflatable structures: speed, modularity, efficiency";
    
-   // ICI : Vous pouvez utiliser <strong>, <b>, <br> dans l'intro
    $part2_texts = [
-       "Concevoir un logo impactant demande de suivre certaines étapes clés pour garantir qu’il soit à la fois unique et mémorable. De l’analyse de la marque et du public cible au choix des formes, couleurs et typographies, chaque décision influence la perception de l’identité visuelle. Un bon logo doit pouvoir résumer l’essence de l’entreprise en un coup d’œil.",
+       "<strong>In a crisis situation, deployment speed is critical.</strong>",
+       "Our inflatable rescue hangars and AMP tents allow for the rapid creation of functional medical zones: triage, care, stabilization, storage, or command.<br><br>Each structure is designed to be <strong>transportable, quick to install, and immediately operational</strong>."
    ];
 
-   // BLOCS (image + titre + texte)
-   // ICI : Vous pouvez utiliser <strong>, <b>, <br> dans le texte des blocs
+   // BLOCKS (image + title + text)
    $part2_blocks = [
        [
-           "img" => "uploads/default.webp",
-           "title" => "Recherche et Analyse",
-           "text"  => "<strong>Comprendre l'identité de la marque</strong>, son <strong>public cible</strong> et les <strong>tendances du marché</strong> est crucial pour orienter le processus de conception."
+           "img" => "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours_3.webp",
+           "title" => "Advanced Medical Post (AMP)",
+           "text"  => "<strong>Triage, care, and stabilization zones</strong> deployable in minutes."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Brainstorming et Esquisses",
-           "text"  => "Générer des <strong>idées créatives</strong> et <strong>réaliser des esquisses préliminaires pour explorer différents concepts</strong> et directions visuelles."
+           "img" => "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours_4.webp",
+           "title" => "Inflatable field hospital",
+           "text"  => "Creation of <strong>temporary medical units</strong> in degraded environments."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Sélection des Éléments Visuels",
-           "text"  => "Choisir les <strong>couleurs</strong>, les <strong>polices</strong> et les <strong>symboles </strong>qui reflètent le mieux la personnalité et les valeurs de la marque."
+           "img" => "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours_5.webp",
+           "title" => "Logistics & storage",
+           "text"  => "Dedicated spaces for <strong>equipment, medication, and intervention gear</strong>."
        ],
        [
-           "img" => "uploads/default.webp",
-           "title" => "Réalisation des Concepts",
-           "text"  => "<strong>Créer des versions numériques des concepts les plus prometteurs</strong> pour une évaluation plus approfondie."
+           "img" => "uploads/hangar-gonflable/hangar-gonflable-secours/hangar_gonflable_secours_6.webp",
+           "title" => "Rapid deployment",
+           "text"  => "Very fast installation <strong>without heavy infrastructure</strong>, perfectly suited for emergency situations."
        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-3.php';
    ?>
-<!-- ----------------- PARTIE 4 ----------------- -->
-   <?php
-$cat_logos_title = "Ils nous ont fait confiance";
+<?php /*
+$cat_logos_title = "Stakeholders involved";
 $cat_logos_list  = [
     "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg",
     "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg", "uploads/Logo/clients/2630401.svg",
@@ -110,69 +106,61 @@ $cat_logos_list  = [
 ];
 
    require_once $base_path . 'components/categories/sous-categories/part-4.php';
-   ?>
-<!-- ----------------- PARTIE 5 ----------------- -->
+   */ ?>
 <?php
-   // TITRE DE LA SECTION
-   $concevoir_product_2_title = "Erreurs à éviter en conception de logo";
+   // SECTION TITLE
+   $concevoir_product_2_title = "From study to commissioning";
    
-   // TEXTE DE GAUCHE (Remplace l'image)
-   $concevoir_product_2_left_text = "En concevant un logo, éviter des erreurs comme un design trop complexe, des couleurs mal choisies ou une typographie peu lisible est crucial. <strong>Un bon logo doit rester simple, adapté aux différents supports</strong> et représenter fidèlement la marque.";
+   // LEFT TEXT
+   $concevoir_product_2_left_text = "Every second counts in a crisis situation. That is why our inflatable hangars are rigorously designed to be <strong>immediately operational</strong> in the field, following a controlled process.";
 
-   // BOUTON CONTACT
-   $concevoir_product_2_btn_label = "Nous contacter";
-   $concevoir_product_2_btn_link  = "contact";
+   // CONTACT BUTTON
+   $concevoir_product_2_btn_label = "Contact us";
+   $concevoir_product_2_btn_link  = "contact/";
 
-   // ÉTAPES (accordéon)
+   // STEPS (accordion)
    $concevoir_product_2_steps = [
        [
-           "title"      => "Complexité Excessive",
+           "title"      => "1. Needs analysis",
            "paragraphs" => [
-               "Un logo trop complexe peut être difficile à reconnaître et à mémoriser<strong>. La simplicité est clé pour une identification rapide.</strong>"
+               "Study of the <strong>intervention typology</strong>, hosting capacity, and flow organization. We take into account your field and logistical constraints."
            ]
        ],
        [
-           "title"      => "Imitation de la Concurrence",
+           "title"      => "2. Design and Sizing",
            "paragraphs" => [
-               "Copier des éléments de logos existants peut <strong>nuire à votre originalité, et donc à la reconnaissance de votre marque, et risque de mener à des problèmes juridiques.</strong>"
+               "<strong>Sizing of zones</strong> (triage, care, rest, storage) and intelligent integration of access points, partitions, and traffic flows."
            ]
        ],
        [
-           "title"      => "Ignorer l'Évolutivité",
+           "title"      => "3. Custom manufacturing",
            "paragraphs" => [
-               "Ne pas considérer comment le logo s'affiche à différentes tailles peut <strong>affecter sa lisibilité et son impact visuel.</strong>"
+               "<strong>Robust manufacturing</strong> and operational preparation in our workshops to guarantee maximum reliability on D-Day."
              ]
        ],
         [
-           "title"      => "Mauvais Choix de Couleurs",
+           "title"      => "4. On-site deployment",
            "paragraphs" => [
-               "Utiliser des couleurs inappropriées peut <strong>envoyer le mauvais message et ne pas</strong> <strong>résonner avec le public cible</strong>."
+               "Implementation and <strong>ultra-fast deployment</strong> on the intervention zone, for immediate availability of infrastructures."
             ]
-        ],
-        [
-           "title"      => "Négliger le Feedback",
-           "paragraphs" => [
-               "Éviter de solliciter des avis peut conduire à des erreurs non détectées. <strong>Le feedback est essentiel pour un design réussi.</strong>"
-          ]
-        ],
+        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-5.php';
    ?>
-<!-- ----------------- PARTIE 6 ----------------- -->
-<?php
-   // TITRE
-   $part8_title = "Quelques unes de nos réalisations";
+<?php /*
+   // TITLE
+   $part8_title = "Some of our projects";
 
-   // IMAGE PATTERN
+   // PATTERN IMAGE
    $part8_pattern = "uploads/Picto/pattern-1.webp"; 
 
-   // --- LOGIQUE DYNAMIQUE : RÉCUPÉRATION DES 2 DERNIERS PROJETS ---
+   // --- DYNAMIC LOGIC : RETRIEVAL OF THE LAST 2 PROJECTS ---
    
    if (!function_exists('getRealisationDataForSubCat')) {
        function getRealisationDataForSubCat($filePath) {
            $content = file_get_contents($filePath);
-           $data = ['title' => 'Projet', 'img_path' => 'uploads/default.webp'];
+           $data = ['title' => 'Project', 'img_path' => 'uploads/default.webp'];
            if (preg_match('/\$titre_projet\s*=\s*["\'](.*?)["\'];/s', $content, $matches)) $data['title'] = $matches[1];
            if (preg_match('/\$image_mockup\s*=\s*\$base_url\s*\.\s*["\'](.*?)["\'];/s', $content, $matches)) $data['img_path'] = $matches[1];
            elseif (preg_match('/\$image_mockup\s*=\s*["\'](.*?)["\'];/s', $content, $matches)) $data['img_path'] = $matches[1];
@@ -181,12 +169,12 @@ $cat_logos_list  = [
    }
 
    $part8_projects = [];
-   // ATTENTION : On remonte de 2 niveaux ici (../../)
+   // WARNING : Going up 2 levels here (../../)
    $target_dir = '/../../nos-realisations'; 
    
    $dirs = glob($target_dir . '/*', GLOB_ONLYDIR);
    if ($dirs) {
-       $dirs = array_reverse($dirs); // Les plus récents en premier
+       $dirs = array_reverse($dirs); // Most recent first
        $count = 0;
        foreach ($dirs as $dir) {
            if ($count >= 2) break;
@@ -206,104 +194,101 @@ $cat_logos_list  = [
        }
    }
 
-   // BOUTON TOUT VOIR
-   $part8_all_link  = "nos-realisations";
-   $part8_all_label = "Tout voir";
+   // SEE ALL BUTTON
+   $part8_all_link  = "nos-realisations/";
+   $part8_all_label = "See all";
 
   require_once $base_path . 'components/categories/sous-categories/part-6.php';
-?>
-<!-- ----------------- PARTIE 7 ----------------- -->
+*/ ?>
 <?php
-   // TITRE DE LA SECTION
-   $accompagner_solution_title = "Faites-vous accompagner dans la conception de votre logo pour des résultats optimaux";
+   // SECTION TITLE
+   $accompagner_solution_title = "Why choose Inflasys for your emergency equipment?";
    
-   $accompagner_solution_title_paragraphe = "Travailler avec des professionnels du design offre plusieurs <strong>avantages</strong> majeurs :";
+   $accompagner_solution_title_paragraphe = "We combine <strong>recognized expertise in inflatables</strong> with a field approach strictly adapted to emergency situations:";
    
-   // BOUTON CTA
-   $accompagner_solution_btn_label = "Nous contacter";
-   $accompagner_solution_btn_link  = "contact";
+   // CTA BUTTON
+   $accompagner_solution_btn_label = "Contact us";
+   $accompagner_solution_btn_link  = "contact/";
 
-   // ÉTAPES
+   // STEPS
    $accompagner_solution_steps = [
        [
-           "title"      => "Expertise Créative",
+           "title"      => "Ultra-fast deployment",
            "paragraphs" => [
-               "Des designers expérimentés apportent une <strong>vision artistique et des compétences techniques pour créer un logo unique</strong>."
+               "Our structures are designed to be set up in <strong>record time</strong>, optimizing crisis response."
            ]
        ],
        [
-           "title"      => "Compréhension Stratégique",
+           "title"      => "Robust and reliable structures",
            "paragraphs" => [
-               "Ils alignent le design sur vos <strong>objectifs commerciaux</strong> et votre <strong>stratégie de marque.</strong>"
+               "Designed with high-performance materials to <strong>withstand degraded environments</strong> and bad weather."
            ]
        ],
        [
-           "title"      => "Processus Collaboratif",
+           "title"      => "Adapted to crisis situations",
            "paragraphs" => [
-               "Un accompagnement personnalisé favorise une <strong>communication ouverte, assurant que le résultat final répond à vos attentes.</strong>"
+               "Ergonomics specifically designed for <strong>triage, care, and logistical management</strong> in hostile environments."
              ]
        ],
         [
-           "title"      => "Support Continu",
+           "title"      => "Custom design",
            "paragraphs" => [
-               "Les professionnels offrent souvent un <strong>suivi pour adapter le logo aux besoins futurs ou aux évolutions du marché.</strong>"
+               "We adapt the <strong>dimensions, access points, and compartments</strong> to your operational specifications."
           ]
        ],
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-7.php';
 ?>
-<!-- ----------------- PARTIE 8 ----------------- -->
- <?php
-   // TITRE DU BLOC
-   $part10_title = "Ils ont aimé travailler avec nous";
+<?php /*
+   // BLOCK TITLE
+   $part10_title = "Field feedback";
 
-   // PATTERN (image décorative)
+   // PATTERN (decorative image)
    $part10_pattern = "uploads/Picto/pattern-1.webp"; 
 
-   // AVIS
+   // REVIEWS (Mix of original template reviews and new page to keep the 5 reviews structure)
    $avis = [
        [
-           "name" => "Jean-Marc P.",
-           "role" => "Directeur Technique - Grand Port Maritime",
-           "text" => "L'automatisation de la pression nous a permis de sécuriser le stockage vrac face aux vents marins violents. Installation exemplaire.",
-           "logo" => "uploads/Logo/clients/Chanel-logo.webp"
+           "name" => "Rescue Team",
+           "role" => "Rapid intervention",
+           "text" => "Rapid deployment and extremely efficient organization on site. A vital time saver.",
+           "logo" => "uploads/Logo/clients/Chanel-logo.png"
+       ],
+       [
+           "name" => "Health Hub",
+           "role" => "Emergency unit",
+           "text" => "Solution perfectly adapted to temporary medical needs during our out-of-facility interventions.",
+           "logo" => "uploads/Logo/clients/Chanel-logo.png"
        ],
        [
            "name" => "Sylvie D.",
-           "role" => "Resp. Maintenance - Site Seveso",
-           "text" => "La redondance des systèmes Airtechnic répond parfaitement à nos exigences de sécurité pour le confinement de zone.",
-           "logo" => "uploads/Logo/clients/Chanel-logo.webp"
-       ],
-       [
-           "name" => "Marc L.",
-           "role" => "Architecte Structure",
-           "text" => "Une collaboration fluide avec le bureau d'études pour intégrer les contraintes esthétiques et techniques.",
+           "role" => "Maintenance Mgr - Seveso Site",
+           "text" => "The redundancy of the systems perfectly meets our safety requirements for zone containment.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ],
        [
            "name" => "Thomas W.",
-           "role" => "Chef de projet événementiel",
-           "text" => "Rapidité de déploiement impressionnante et fiabilité totale du système de pilotage durant tout l'événement.",
+           "role" => "Event Project Manager",
+           "text" => "Impressive deployment speed and total system reliability throughout the event.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ],
        [
-           "name" => "Cabinet Ingénierie X",
-           "role" => "Partenaire BTP",
-           "text" => "Nous prescrivons systématiquement leurs solutions pour les ouvrages temporaires de grande portée.",
+           "name" => "Engineering Firm X",
+           "role" => "Construction Partner",
+           "text" => "We systematically recommend their solutions for large-span temporary structures.",
            "logo" => "uploads/Logo/clients/Chanel-logo.webp"
        ]
    ];
 
    require_once $base_path . 'components/categories/sous-categories/part-8.php';
-?>
-<!-- ----------------- PARTIE 9 ----------------- -->
+*/ ?>
 <?php
-// Variables par défaut
-$part11_subtitle = $part11_subtitle ?? "Contactez nos équipes";
-$part11_title    = $part11_title ?? "Discutons de vos besoins";
+// Variables
+$part11_subtitle = "Contact";
+$part11_title    = "Let's discuss your rescue structure needs";
 
-$part11_text     = $part11_text ?? "Vous cherchez une <strong>agence web</strong> de confiance pour votre projet&nbsp;?<strong> Contactez-nous</strong> et découvrez comment nous pouvons vous aider.";
+$part11_text     = "Do you need an <strong>inflatable advanced medical post</strong> or a <strong>rescue hangar</strong>? <strong>Contact us</strong> to design a solution adapted to your intervention.";
 
    require_once $base_path . 'components/categories/sous-categories/part-9.php';
    ?>

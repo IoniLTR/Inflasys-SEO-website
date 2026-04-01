@@ -72,8 +72,8 @@ $lang_data = [
         'han_stock_desc' => 'Protection étanche',
         'han_secours'    => 'Hangar gonflable secours',
         'han_secours_desc'=> 'Déploiement rapide',
-        'han_etanche'    => 'Hangar gonflable étanche',
-        'han_etanche_desc'=> 'Étanchéité garantie',
+        'han_etanche'    => 'Hangar gonflable dépollution',
+        'han_etanche_desc'=> 'Dépollution garantie',
         'han_perm'       => 'Hangar gonflable permanent',
         'han_perm_desc'  => 'Déploiement long terme',
         'han_link_all'   => "Découvrez nos solutions de <strong>Hangar</strong>",
@@ -147,8 +147,8 @@ $lang_data = [
         'han_stock_desc' => 'Airtight protection',
         'han_secours'    => 'Emergency Hangar',
         'han_secours_desc'=> 'Rapid deployment',
-        'han_etanche'    => 'Airtight Hangar',
-        'han_etanche_desc'=> 'Guaranteed airtightness',
+        'han_etanche'    => 'Inflatable Hangar decontamination',
+        'han_etanche_desc'=> 'Guaranteed decontamination',
         'han_perm'       => 'Permanent Hangar',
         'han_perm_desc'  => 'Long-term deployment',
         'han_link_all'   => "Discover our <strong>Hangar</strong> solutions",
@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="produits-menu-row">
       <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-stockage/" class="produits-item"><div class="produits-text"><h4><?= $t['han_stock'] ?></h4><p><?= $t['han_stock_desc'] ?></p></div></a>
       <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-secours/" class="produits-item"><div class="produits-text"><h4><?= $t['han_secours'] ?></h4><p><?= $t['han_secours_desc'] ?></p></div></a>
-      <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-etanche/" class="produits-item"><div class="produits-text"><h4><?= $t['han_etanche'] ?></h4><p><?= $t['han_etanche_desc'] ?></p></div></a>
+      <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-depollution/" class="produits-item"><div class="produits-text"><h4><?= $t['han_etanche'] ?></h4><p><?= $t['han_etanche_desc'] ?></p></div></a>
       <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-permanent/" class="produits-item"><div class="produits-text"><h4><?= $t['han_perm'] ?></h4><p><?= $t['han_perm_desc'] ?></p></div></a>
     </div>
     <a class="produits-menu-footer-link" href="<?= $base_url ?>hangar-gonflable/"><?= $t['han_link_all'] ?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
            <div class="mobile-panel" id="mcol-2">
                <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-stockage/" class="mobile-link"><?= $t['han_stock'] ?></a>
                <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-secours/" class="mobile-link"><?= $t['han_secours'] ?></a>
-               <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-etanche/" class="mobile-link"><?= $t['han_etanche'] ?></a>
+               <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-depollution/" class="mobile-link"><?= $t['han_etanche'] ?></a>
                <a href="<?= $base_url ?>hangar-gonflable/hangar-gonflable-permanent/" class="mobile-link"><?= $t['han_perm'] ?></a>
                <a href="<?= $base_url ?>hangar-gonflable/" class="mobile-link"><strong><?= $t['mob_see_all'] ?> <?= $t['menu_hangar_title'] ?></strong></a>
            </div>
